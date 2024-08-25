@@ -45,6 +45,9 @@ nav{
 }
 .button-yellow{
     background-color: yellow;
+    border-radius:2px;
+    width: 140px;
+    height: 40px;
     font-weight: bolder;
 }
 #button1{
@@ -107,6 +110,10 @@ nav{
 .button-black{
     background-color: black;
     color: white;
+    border-radius:2px;
+    width: 140px;
+    height: 40px;
+    font-weight: bolder;
 }
 #button2{
     margin-top: 20px;
@@ -116,4 +123,68 @@ nav{
     position: relative;
     left: 480px;
     bottom: 150px;
+}
+#section3{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-sect3{
+    margin: 80px;
+    background-color: lightgray;
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+#box-text-sect3{
+    width: 360px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+#title3{
+    font-size: 60px;
+    font-weight: bolder;
+    color: yellow;
+}
+#text3{
+    margin-top: 20px;
+}
+#button3{
+    margin-top: 20px;
+}
+#graph1-sect3{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+#title4{
+    margin-top: 40px;
+    color: yellow;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#text4{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    width: 600px;
+}
+#img4{
+    margin-top: 20px;
+}
+#button4{
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
