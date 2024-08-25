@@ -412,7 +412,7 @@ footer{
     margin-right: 40px;
   }
 
-  @media (max-width:768px){
+@media (max-width:768px){
     #img1{
         width: 400px;
     }
@@ -535,7 +535,7 @@ footer{
         object-fit: contain;
     }
   }
-  @media (max-width:760px){
+@media (max-width:760px){
     #img6{
         width: 300px;
     }
@@ -543,7 +543,7 @@ footer{
         margin-left: 0px;
     }
   }
-  @media (max-width:735px){
+@media (max-width:735px){
     #section7{
         width: 100%;
     }
@@ -558,7 +558,7 @@ footer{
         margin-left: 50px;
     }
   }
-  @media (max-width:700px){
+@media (max-width:700px){
     #graph01{
         width: 150px;
         object-fit: contain;
@@ -591,7 +591,7 @@ footer{
         margin-left: 0px;
     }
   }
-  @media (max-width:680px){
+@media (max-width:670px){
         #title1{
             font-size: 20px;
         }
@@ -669,7 +669,7 @@ footer{
             width: 600px;
         }
   }
-  @media (max-width:680px){
+@media (max-width:620px){
     #button1{
         margin-left: 40px;
     }
@@ -755,7 +755,7 @@ footer{
         width: 300px;
     }
   }
-  @media (max-width:580px){
+@media (max-width:580px){
     #img1{
         width: 300px;
         object-fit: contain;
@@ -807,7 +807,7 @@ footer{
         width: 500px;
     }
   }
-  @media (max-width:530px){
+@media (max-width:530px){
     #refs{
         width: 300px;
     }
@@ -886,7 +886,7 @@ footer{
         text-align: center;
     }
   }
-  @media (max-width:470px){
+@media (max-width:470px){
     #logo{
         margin-left: 20px;
     }
@@ -979,7 +979,7 @@ footer{
         width: 350px;
     }
   }
-  @media (max-width:470px){
+@media (max-width:430px){
     #logo{
         width: 50px;
         margin-left: 0px;
@@ -1026,5 +1026,90 @@ footer{
         width: 200px;
         margin-left: 10px;
         text-align: center;
+    }
+  }
+@media (max-width:390px){
+    #refs{
+        width: 250px;
+    }
+    #title1{
+        font-size: 15px;
+    }
+    #text1{
+        font-size: 10px;
+    }
+    .button-yellow{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+    .button-black{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+    .title-div1-2{
+        font-size: 15px;
+    }
+    #div1-2{
+        height: 300px;
+    }
+    #text-div1-2{
+        font-size: 10px;
+    }
+    #graph01{
+        width: 100px;
+    }
+    #graph02{
+        width: 100px;
+    }
+    #section2{
+        height: 700px;
+    }
+    #box-sect2{
+        height: 0px;
+    }
+    .title2{
+        margin-left: 0px;
+    }
+    #text2{
+        margin-left: 0px;
+        font-size: 10px;
+        width: 200px;
+    }
+    #button2{
+        margin-left: 40px;
+    }
+    #img2{
+        width: 200px;
+    }
+    #img3{
+        width: 150px;
+    }
+    #title4{
+        font-size: 20px;
+    }
+    #text4{
+        font-size: 15px;
+    }
+    #img4{
+        width: 300px;
+    }
+    #button5{
+        margin-left: 50px;
+    }
+    #button6{
+        margin-left: 100px;
+    }
+    .title7{
+        width: 100px;
+        margin-left: 30px;
+    }
+    #text7{
+        width: 150px;
+        margin-left: 10px;
+    }
+    #right-side-sect-7{
+        width: 180px;
     }
   }
