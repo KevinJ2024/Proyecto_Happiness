@@ -229,7 +229,7 @@ nav{
 }
 #img6{
     height: 500px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 #box-sect6{
     margin: 60px;
@@ -250,4 +250,117 @@ nav{
 }
 #button6{
     margin-top: 40px;
+}
+#section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-sect7{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#left-side-sect-7{
+    background-color: black;
+    width: 450px;
+    height: 450px;
+}
+.square{
+    background-color: black;
+    border-color: white;
+}
+.row-box-sect7{
+    display: flex;
+    flex-direction: row;
+}
+.text-box-sect7{
+    color: white;
+}
+.text-input{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#email-input{
+    width: 365px;
+}
+#password-input{
+    width: 365px;
+}
+#message-input{
+    width: 365px;
+    height: 100px;
+}
+#lorem-box-sect7{
+    width: 365px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#right-side-sect-7{
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#text-right-side-sect7{
+    margin-top: 50px;
+    width: 400px;
+}
+.title7{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#text7{
+    margin-top: 20px;
+}
+#button7{
+    margin-top: 20px;
+}
+#section8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    width: auto;
+    height: auto;
+}
+#title8{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#text8{
+    margin-top: 20px;
+    text-align: center;
+    width: 600px;
+}
+#map{
+    margin-top: 20px;
+}
+#button8{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#section9{
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+#logo-white{
+    width: 80px;
+    object-fit: contain;
+}
+#rows-sect9{
+
+}
+.row-sect9{
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text-sect9{
+    color: yellow;
 }
