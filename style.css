@@ -46,6 +46,7 @@ nav{
 .button-yellow{
     background-color: yellow;
     border-radius:2px;
+    border: none;
     width: 140px;
     height: 40px;
     font-weight: bolder;
@@ -111,6 +112,7 @@ nav{
     background-color: black;
     color: white;
     border-radius:2px;
+    border: none;
     width: 140px;
     height: 40px;
     font-weight: bolder;
@@ -187,4 +189,65 @@ nav{
 #button4{
     margin-top: 20px;
     margin-bottom: 40px;
+}
+#section5{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img5{
+    height: 500px;
+}
+#box-sect5{
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box-text-sect5{
+    margin-left: 40px;
+    width: 400px;
+}
+#title5{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#text5{
+    margin-top: 20px;
+}
+#button5{
+    margin-top: 40px;
+}
+#section6{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#img6{
+    height: 500px;
+    margin-left: 60px;
+}
+#box-sect6{
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box-text-sect6{
+    width: 400px;
+    margin-left: 100px;
+}
+.title6{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#text6{
+    margin-top: 20px;
+}
+#button6{
+    margin-top: 40px;
 }
