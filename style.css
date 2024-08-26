@@ -6,7 +6,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: #F5CB00;
     position: sticky;
     top: 0;
     width: auto;
@@ -29,24 +29,29 @@ nav{
 }
 #section1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: auto;
     margin-top: 80px;
 }
+#box-sect1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
 #right-side-sect-1{
-    width: 500px;
+    width: 400px;
 }
 #title1{
     font-size: 60px;
     font-weight: bolder;
-    font-family: 'Bebas Neue';
+    font-family:'Bebas Neue';
 }
 #text1{
     margin-top: 20px;
 }
 .button-yellow{
-    background-color: yellow;
+    background-color: #F5CB00;
     border-radius:2px;
     border: none;
     width: 140px;
@@ -57,12 +62,12 @@ nav{
     margin-top: 20px;
 }
 #div1-2{
-    background-color: lightgray;
+    background-color: #E6E6E6;
     width: 1100px;
     height: 400px;
     position: relative;
     top: 200px;
-    left: 130px;
+    left: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +81,7 @@ nav{
     font-size: 50px;
     font-weight: bolder;
     font-family: 'Bebas Neue';
-    color: yellow;
+    color: #F5CB00;
 }
 #text-div1-2{
     margin-top: 20px;
@@ -93,13 +98,13 @@ nav{
     width: 600px;
 }
 #section2{
-    background-color: yellow;
+    background-color: #F5CB00;
     width: auto;
     height: auto;
 }
 #box-sect2{
     padding-top: 300px;
-    padding-left: 100px;
+    padding-left: 300px;
     position: relative;
     width: 600px;
 }
@@ -139,7 +144,7 @@ nav{
 }
 #box-sect3{
     margin: 80px;
-    background-color: lightgray;
+    background-color: #E6E6E6;
     width: 1100px;
     height: 600px;
     display: flex;
@@ -153,7 +158,7 @@ nav{
 #title3{
     font-size: 60px;
     font-weight: bolder;
-    color: yellow;
+    color: #F5CB00;
     font-family: 'Bebas Neue';
 }
 #text3{
@@ -178,7 +183,7 @@ nav{
 }
 #title4{
     margin-top: 40px;
-    color: yellow;
+    color: #F5CB00;
     font-size: 40px;
     font-weight: bolder;
     font-family: 'Bebas Neue';
@@ -231,7 +236,7 @@ nav{
     width: auto;
     height: auto;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 #img6{
@@ -275,8 +280,10 @@ nav{
     height: 450px;
 }
 .square{
+    color: white;
     background-color: black;
-    border-color: white;
+    border: solid white;
+    outline: none;
 }
 .row-box-sect7{
     display: flex;
@@ -313,7 +320,7 @@ nav{
     width: 400px;
 }
 .title7{
-    color: yellow;
+    color: #F5CB00;
     font-size: 40px;
     font-weight: bolder;
     font-family: 'Bebas Neue';
@@ -329,7 +336,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #F5CB00;
     width: auto;
     height: auto;
 }
@@ -375,17 +382,24 @@ footer{
     justify-content: space-between;
 }
 .text-footer{
-    color: yellow;
+    color: #F5CB00;
     text-align: start;
 }
-#cookies{
-    margin-right: 40px;
+#row-footer2{
+    position: relative;
+    right: 45px;
+}
+#row-footer3{
+    position: relative;
+    right: 45px;
+}
+#row-footer4{
+    position: relative;
+    right: 140px;
 }
 #FAQS{
-    margin-right: 55px;
-}
-#contact{
-    margin-bottom: 50px;
+    position: relative;
+    right: 20px;
 }
 .line-footer {
     display: flex;
@@ -399,7 +413,7 @@ footer{
     align-items: center;
   }
   #copyright{
-    color: yellow;
+    color: #F5CB00;
     margin-left: 50px;
   }
   .design-logos{
@@ -416,15 +430,20 @@ footer{
     #img1{
         width: 400px;
     }
+    #box-sect1{
+        width: 100%;
+    }
     #right-side-sect1{
         width: auto;
     }
     #title1{
         font-size: 40px;
         text-align: center;
+        width: 300px;
     }
     #text1{
         text-align: center;
+        width: 300px;
     }
     #button1{
         margin-left: 100px;
@@ -438,6 +457,9 @@ footer{
     }
     #section2{
         height: 1000px;
+    }
+    #box-sect2{
+        padding-left: 100px;
     }
     .title2{
         font-size: 40px;
@@ -506,7 +528,7 @@ footer{
         margin-left: 20px;
     }
     #img6{
-        width: 400px;
+        width: 300px;
         object-fit: contain;
     }
     #box-sect7{
@@ -547,11 +569,15 @@ footer{
     #section7{
         width: 100%;
     }
+    #right-side-sect-7{
+        width: 280px;
+    }
     #text-right-side-sect7{
-        width: 300px;
+        width: 100%;
     }
     .title7{
         font-size: 30px;
+        width: 100%;
     }
     #text7{
         width: 200px;
@@ -594,9 +620,11 @@ footer{
 @media (max-width:670px){
         #title1{
             font-size: 20px;
+            width: 100%;
         }
         #text1{
             font-size: 15px;
+            width: 100%;
         }
         #button1{
             margin-left: 80px;
@@ -656,7 +684,7 @@ footer{
             margin-left: 40px;
         }
         #right-side-sect-7{
-            width: 280px;
+            width: 270px;
         }
         #text-right-side-sect7{
             width: auto;
@@ -752,7 +780,7 @@ footer{
         margin-left: 50px;
     }
     #right-side-sect-7{
-        width: 300px;
+        width: 100%;
     }
   }
 @media (max-width:580px){
@@ -980,6 +1008,9 @@ footer{
     }
   }
 @media (max-width:430px){
+    #box-sect2{
+        padding-left: 80px;
+    }
     #logo{
         width: 50px;
         margin-left: 0px;
@@ -1068,6 +1099,7 @@ footer{
     }
     #box-sect2{
         height: 0px;
+        padding-left: 100px;
     }
     .title2{
         margin-left: 0px;
@@ -1091,6 +1123,7 @@ footer{
     }
     #text4{
         font-size: 15px;
+        width: 100%;
     }
     #img4{
         width: 300px;
@@ -1110,6 +1143,43 @@ footer{
         margin-left: 10px;
     }
     #right-side-sect-7{
-        width: 180px;
+        width: 170px;
+    }
+    #text8{
+        width: 100%;
     }
   }
+@media (max-width:360px){
+    #button1{
+        margin-left: 5px;
+    }
+    #title3{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #graph1-sect3{
+        width: 140px;
+        left: 100px;
+    }
+    #button3{
+        left: 120px;
+    }
+    #box-sect7{
+        padding: 0px 0 80px 0;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    #right-side-sect7{
+        width: 80px;
+    }    
+    .title7{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #text7{
+        width: 100%;
+        margin-left: 0px;
+    }
+  }
+
