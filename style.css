@@ -541,27 +541,6 @@ footer{
     }
   }
 @media (max-width:768px){
-    #img1{
-        width: 400px;
-    }
-    #box-sect1{
-        width: 100%;
-    }
-    #right-side-sect1{
-        width: auto;
-    }
-    #title1{
-        font-size: 40px;
-        text-align: center;
-        width: 300px;
-    }
-    #text1{
-        text-align: center;
-        width: 300px;
-    }
-    #button1{
-        margin-left: 100px;
-    }
     #div1-2{
         width: auto;
         left:0px;
@@ -591,10 +570,6 @@ footer{
         left: 60px;
         top: 40px;
     }
-    #box-sect3{
-        margin: 0px;
-        width: auto;
-    }
     #img3{
         width: 400px;
         object-fit: contain;
@@ -602,7 +577,7 @@ footer{
     #title3{
         font-size: 40px;
         text-align: center;
-        width: auto;
+        width: 100%;
     }
     #text3{
         text-align: center;
@@ -612,10 +587,10 @@ footer{
         margin-right: 20px;
     }
     #button3{
-        margin-left: 110px;
+        margin-left: 10px;
     }
     #graph1-sect3{
-        left:70px
+        left:100px
     }
     #img4{
         width: 500px;
@@ -680,6 +655,9 @@ footer{
     }
   }
 @media (max-width:735px){
+    #div1-2{
+        gap: 40px;
+    }
     #section7{
         width: 100%;
     }
@@ -699,13 +677,20 @@ footer{
     }
   }
 @media (max-width:700px){
-    #graph01{
-        width: 150px;
-        object-fit: contain;
+    #box-sect2{
+        padding-left: 80px;
     }
-    #graph02{
-        width: 150px;
-        object-fit: contain;
+    #section3{
+        justify-content: start;
+    }
+    #box-sect3{
+        gap: 0px;
+    }
+    #button3{
+        margin-left:60px;
+    }
+    #graph1-sect3{
+        left: 40px;
     }
     #left-side-sect-7{
         width: 400px;
@@ -732,89 +717,78 @@ footer{
     }
   }
 @media (max-width:670px){
-        #title1{
-            font-size: 20px;
-            width: 100%;
-        }
-        #text1{
-            font-size: 15px;
-            width: 100%;
-        }
-        #button1{
-            margin-left: 80px;
-        }
-        .title-div1-2{
-            font-size: 20px;
-        }
-        #text-div1-2{
-            font-size: 15px;
-        }
-        #box-sect2{
-            width: auto;
-        }
-        .title2{
-            font-size: 20px;
-            width: 200px;
-            margin-left: 150px;
-        }
-        #text2{
-            margin-left: 80px;
-        }
-        #button2{
-            margin-left: 180px;
-        }
-        #img2{
-            left: 10px;
-        }
-        #title3{
-            font-size: 20px;
-        }
-        #text3{
-            font-size: 15px;
-        }
-        #box-text-sect3{
-            margin-right: 0px;
-            margin-top: 50px;
-        }
-        #button3{
-            margin-left: 70px;
-        }
-        #graph1-sect3{
-            left: 30px;
-        }
-        #box-text-sect5{
-            width: auto;
-        }
-        #title5{
-            font-size: 20px;
-            margin-left: 40px;
-        }
-        #text5{
-            font-size: 15px;
-            width: 200px;
-            text-align: center;
-        }
-        #button5{
-            margin-left: 40px;
-        }
-        #right-side-sect-7{
-            width: 270px;
-        }
-        #text-right-side-sect7{
-            width: auto;
-        }
-        .title7{
-            width: 200px;
-            margin-left: 50px;
-        }
-        #map{
-            width: 600px;
-        }
-  }
-@media (max-width:620px){
-    #button1{
+    #box-div1-2{
+        width: 40%;
+    }
+    .title-div1-2{
+        font-size: 20px;
+    }
+    #text-div1-2{
+        font-size: 15px;
+    }
+    #box-sect2{
+        width: auto;
+    }
+    .title2{
+       font-size: 20px;
+        width: 200px;
+        margin-left: 150px;
+    }
+    #text2{
+        margin-left: 80px;
+    }
+    #button2{
+        margin-left: 180px;
+    }
+    #img2{
+        left: 10px;
+    }
+    #title3{
+        font-size: 20px;
+    }
+    #text3{
+        font-size: 15px;
+    }
+    #box-text-sect3{
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    #button3{
+        margin-left: 70px;
+    }
+    #graph1-sect3{
+        left: 30px;
+    }
+    #box-text-sect5{
+        width: auto;
+    }
+    #title5{
+        font-size: 20px;
         margin-left: 40px;
     }
+    #text5{
+        font-size: 15px;
+        width: 200px;
+        text-align: center;
+    }
+    #button5{
+        margin-left: 40px;
+    }
+    #right-side-sect-7{
+        width: 270px;
+    }
+    #text-right-side-sect7{
+        width: auto;
+    }
+    .title7{
+        width: 200px;
+        margin-left: 50px;
+    }
+    #map{
+        width: 600px;
+    }
+  }
+@media (max-width:620px){
     #section2{
         height: 900px;
     }
@@ -833,24 +807,24 @@ footer{
     }
     #box-sect3{
         flex-direction: column-reverse;
-        height: 800px;
+        height: 700px;
     }
     #graph1-sect3{
         width: 200px;
-        top: 100px;
-        left: 0px;
+        top: 150px;
+        left: 160px;
     }
     #button3{
         margin-top: 0px;
         position: relative;
         bottom: 150px;
-        left: 180px;
+        left: 170px;
     }
     #img3{
         width: 250px;
         position: relative;
-        left: 190px;
-        bottom: 40px;
+        left: 40px;
+        bottom: 80px;
     }
     #box-text-sect5{
         margin-left: 0px;
@@ -893,17 +867,11 @@ footer{
     #button7{
         margin-left: 50px;
     }
-    #right-side-sect-7{
-        width: 100%;
-    }
   }
 @media (max-width:580px){
     #img1{
-        width: 300px;
+        width: 400px;
         object-fit: contain;
-    }
-    #button1{
-        margin-left: 80px;
     }
     #button3{
         left: 150px;
@@ -956,12 +924,6 @@ footer{
     .href{
         font-size: 15px;
     }
-    #button1{
-        margin-left: 40px;
-    }
-    #box-div1-2{
-        margin-left: 0px;
-    }
     .title2{
         margin-left: 80px;
     }
@@ -1002,11 +964,8 @@ footer{
     #button6{
         margin-left: 80px;
     }
-    #right-side-sect-7{
-        width: 230px;
-    }
     #left-side-sect-7{
-        width: 300px;
+        width: 60%;
         height: auto;
     }
     .square{
@@ -1035,26 +994,28 @@ footer{
     #img1{
         width: 250px;
     }
-    #graph01{
-        width: 120px;
+    #div1-2{
+        flex-direction: column;
+        gap: 0px;
     }
-    #graph02{
-        width: 120px;
+    #box-div1-2{
+        text-align: center;
     }
     #section2{
         height: 800px;
     }
     .title2{
-        margin-left: 40px;
+        margin-left: 60px;
     }
     #text2{
-        margin-left: 0px;
+        margin-left: 15px;
     }
     #button2{
-        margin-left: 70px;
+        margin-left: 100px;
     }
     #img2{
         width: 300px;
+        left: 20px;
     }
     #title3{
         margin-left: 80px;
@@ -1080,39 +1041,41 @@ footer{
     #title5{
         margin-top: 40px;
     }
+    #left-side-sect-7{
+        width: 60%;
+        height: auto;
+    }
     #right-side-sect-7{
-        width: 210px;
+        width: 50%;
     }
     .title7{
         margin-left: 0px;
+        font-size:15px ;
     }
     #text7{
         margin-left: 0px;
+        font-size: 10px;
     }
     #button7{
         margin-left: 35px;
-    }
-    #left-side-sect-7{
-        width: 260px;
-        height: auto;
     }
     .text-box-sect7{
         font-size: 10px;
     }
     .square{
-        width: 100px;
+        width: 90px;
     }
     #email-input{
-        width: 230px;
+        width: 210px;
     }
     #password-input{
-        width: 230px;
+        width: 210px;
     }
     #message-input{
-        width: 230px;
+        width: 210px;
     }
     #lorem-box-sect7{
-        font-size: 12px;
+        font-size: 10px;
         width: 250px;
         margin-left: 10px;
         text-align: center;
@@ -1123,7 +1086,7 @@ footer{
   }
 @media (max-width:430px){
     #box-sect2{
-        padding-left: 80px;
+        padding-left: 55px;
     }
     #logo{
         width: 50px;
@@ -1135,20 +1098,23 @@ footer{
     .href{
         font-size: 10px;
     }
-    #button1{
-        margin-left: 20px;
-    }
     .title7{
         font-size: 12px;
     }
     #text7{
         font-size: 10px;
     }
+    #section7{
+        justify-content: start;
+    }
+    #box-sect7{
+        justify-content: start;
+    }
     #right-side-sect-7{
-        width: 210px;
+        width: 40%;
     }
     #left-side-sect-7{
-        width: 220px;
+        width: 55%;
         height: auto;
     }
     .text-box-sect7{
@@ -1177,11 +1143,17 @@ footer{
     #refs{
         width: 250px;
     }
+    #box-sect1{
+        width: 90%;
+    }
     #title1{
-        font-size: 15px;
+        font-size: 20px;
     }
     #text1{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    #button1{
+        margin-left: 150px;
     }
     .button-yellow{
         font-size: 10px;
@@ -1193,20 +1165,14 @@ footer{
         width: 100px;
         height: 30px;
     }
-    .title-div1-2{
-        font-size: 15px;
-    }
     #div1-2{
-        height: 300px;
+        height: 250px;
+    }
+    #box-div1-2{
+        margin-left: 0px;
     }
     #text-div1-2{
         font-size: 10px;
-    }
-    #graph01{
-        width: 100px;
-    }
-    #graph02{
-        width: 100px;
     }
     #section2{
         height: 700px;
@@ -1224,13 +1190,20 @@ footer{
         width: 200px;
     }
     #button2{
-        margin-left: 40px;
+        margin-left: 45px;
     }
     #img2{
         width: 200px;
+        left: 0px;
     }
     #img3{
         width: 150px;
+    }
+    #title3{
+        margin-left: 50px;
+    }
+    #button3{
+        margin-left: 0px;
     }
     #title4{
         font-size: 20px;
@@ -1256,6 +1229,9 @@ footer{
         width: 150px;
         margin-left: 10px;
     }
+    #left-side-sect-7{
+        width: 60%;
+    }
     #right-side-sect-7{
         width: 170px;
     }
@@ -1264,8 +1240,11 @@ footer{
     }
   }
 @media (max-width:360px){
+    #right-side-sect-1{
+        width: 100%;
+    }
     #button1{
-        margin-left: 5px;
+        margin-left: 110px;
     }
     #title3{
         width: 100%;
@@ -1279,13 +1258,17 @@ footer{
         left: 120px;
     }
     #box-sect7{
+        width: 100%;
         padding: 0px 0 80px 0;
         align-items: center;
         flex-direction: column-reverse;
         gap: 100px;
     }
+    #left-side-sect-7{
+        width: 70%;
+    }
     #right-side-sect7{
-        width: 80px;
+        width: 50%;
     }    
     .title7{
         width: 100%;
