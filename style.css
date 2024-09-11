@@ -1084,7 +1084,28 @@ footer{
         width: 350px;
     }
   }
-@media (max-width:430px){
+@media (max-width:455px){
+    #img3{
+        width: 150px;
+    }
+    #graph1-sect3{
+        left: 80px;
+        width: 150px;
+    }
+    .button-black{
+        width: 120px;
+    }
+    .button-yellow{
+        width: 120px;
+    }
+    .title7{
+        width: 80%;
+        margin-left: 15%;
+    }
+    #text7{
+        width: 80%;
+        margin-left: 15%;
+    }
     #box-sect2{
         padding-left: 55px;
     }
@@ -1143,6 +1164,9 @@ footer{
     #refs{
         width: 250px;
     }
+    #right-side-sect-1{
+        width: 80%;
+    }
     #box-sect1{
         width: 90%;
     }
@@ -1153,7 +1177,7 @@ footer{
         font-size: 15px;
     }
     #button1{
-        margin-left: 150px;
+        margin-left: 90px;
     }
     .button-yellow{
         font-size: 10px;
@@ -1198,6 +1222,9 @@ footer{
     }
     #img3{
         width: 150px;
+    }
+    #graph1-sect3{
+        left: 120px;
     }
     #title3{
         margin-left: 50px;
